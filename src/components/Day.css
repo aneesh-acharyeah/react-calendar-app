@@ -1,0 +1,32 @@
+.day {
+  background: #e9ecef;
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  min-height: 80px;
+}
+
+.day:hover {
+  background: #dee2e6;
+}
+
+.day p {
+  margin: 0;
+  font-weight: bold;
+  color: #495057;
+}
+
+.event {
+  display: block;
+  background: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  padding: 2px 4px;
+  margin-top: 5px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -15,15 +15,19 @@ const EventModal = ({ fullDate, events, setEvents, closeModal }) => {
 
   return (
     <div className="modal">
-      <h3>Add Event for {fullDate}</h3>
-      <input
-        type="text"
-        value={newEvent}
-        onChange={(e) => setNewEvent(e.target.value)}
-        placeholder="Event name"
-      />
-      <button onClick={addEvent}>Add</button>
-      <button onClick={closeModal}>Cancel</button>
+      <div className="modal-content">
+        <h3>Add Event for {fullDate}</h3>
+        <input
+          type="text"
+          value={newEvent}
+          onChange={(e) => setNewEvent(e.target.value)}
+          placeholder="Event name"
+        />
+        <div className="modal-buttons">
+          <button onClick={addEvent}>Add</button>
+          <button onClick={closeModal}>Cancel</button>
+        </div>
+      </div>
     </div>
   );
 };

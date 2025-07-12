@@ -14,7 +14,7 @@ A simple **React Calendar Application** where you can **view dates** and **add c
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Tech Stack 
 
 - **React** (with Hooks)
 - **CSS** (custom styling)
